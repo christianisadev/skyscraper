@@ -5,7 +5,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![License][license-shield]][license-url]]
+[![License][license-shield][license-url]]
 [![Twitter][twitter-shield][twitter-url]]
 
 ## Table of Contents
