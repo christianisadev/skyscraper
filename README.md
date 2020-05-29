@@ -5,8 +5,8 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![License][license-shield][license-url]]
-[![Twitter][twitter-shield][twitter-url]]
+[![License][license-shield]][license-url]
+[![Twitter][twitter-shield]][twitter-url]
 
 ## Table of Contents
 
@@ -75,8 +75,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Acknowledgements
 
-* [w3schools](https://www.w3schools.com/)
-* [shields.io](https://shields.io/)
+* [w3schools](https://www.w3schools.com/) For inspiration and tutorials.
+* [shields.io](https://shields.io/) For shields used on our github repo.
 
 [contributors-shield]: https://img.shields.io/github/contributors/christianisadev/skyscraper.svg?style=for-the-badge
 [contributors-url]: https://github.com/christianisadev/skyscraper/graphs/contributors
