@@ -1,0 +1,74 @@
+
+/* Nu Metro Buttons */
+/* Focuses only on <button> styling to for accessibility. */
+/* Core button with fallback color */
+button{
+    background-color: var(--primary-color, #2d89ef);
+    border: none;
+    box-sizing: border-box;
+    color: var(--font-color, #1d1d1d);
+    cursor: pointer;
+    display: inline-block;
+    line-height: inherit;
+    overflow: hidden;
+    padding: 0.5em 0.8em;
+    text-decoration: none;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+}
+
+/* TODO: Animate On Click */
+/* TODO: Add "Rounded" and "Pill" */
+
+/* As they keyboard cannot "enter" on a button, remove outline. */
+button:focus{
+    outline: 0;
+}
+
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+    outline: 0;
+}
+
+/* On hover effect. */
+button:hover{
+    opacity: 0.6;
+}
+
+/* On active (click) effect. */
+button:active{
+    opacity: 0.4;
+}
+
+/* Disabled properties */
+button:disabled{
+    cursor: not-allowed;
+    opacity: 0.3;
+    border: none;
+    background-image: none;
+    cursor: not-allowed;
+    box-shadow: none;
+    pointer-events: none;
+}
+
+/* Normalize */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+/* TODO: Button Group (create folder, separate css) */

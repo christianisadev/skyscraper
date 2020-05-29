@@ -1,0 +1,125 @@
+html,
+body {
+    font-family: "Fira Sans", Arial, sans-serif;
+    letter-spacing: 0.03em;
+    line-height: 2.1em;
+}
+
+/* Google Has An Awesome Fonts Project We Love Using */
+
+a,
+p,
+pre,
+em,
+blockquote {
+    font-weight: 200;
+}
+
+b,
+strong {
+    font-weight: 600;
+}
+
+small,
+sub,
+sup {
+    font-size: 0.8em;
+    font-weight: inherit;
+}
+
+/* TODO : Blockquote left, center, right + responsive */
+blockquote,
+em,
+strong {
+    font-variant: small-caps;
+}
+
+sub,
+sup {
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sub {
+    bottom: -0.5em;
+}
+
+sup {
+    top: -0.5em;
+}
+
+strong {
+    font-variant: small-caps;
+}
+
+a {
+    color: var(--primary-color, #2d89ef);
+    text-decoration: none;
+}
+
+a:active{
+    outline-width: 0;
+    opacity: 0.4;
+}
+
+a:hover {
+    outline-width: 0;
+    text-decoration: underline;
+}
+
+/* code, samp, pre, var, kbd */
+/* code, samp, var, kbd : i/o terminal */
+/* 
+    pre : just font-family and spacing
+    code : section for code left-aligned but with blockquote indentation and styling (b/w, colors should change this)
+    kbd  : left-aliged
+    samp : right-aligned
+    var : like code but no styling
+*/
+
+
+code,
+kbd,
+pre,
+var,
+samp {
+    font-family: "Fira Code", monospace;
+}
+
+code,
+kbd,
+var,
+samp {
+    font-weight: 500;
+}
+
+kbd {
+    text-align: left;
+}
+
+samp {
+    text-align: right;
+}
+
+dfn {
+    font-style: italic
+}
+
+mark {
+    background: #ff0;
+    color: #000
+}
+
+hr {
+    border: 0;
+    height: 0;
+    margin: 0.8em 0;
+    overflow: visible;
+}
+
+abbr[title] {
+    border-bottom: none;
+    text-decoration: underline;
+    text-decoration: underline dotted
+}

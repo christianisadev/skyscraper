@@ -77,6 +77,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 * [w3schools](https://www.w3schools.com/) For inspiration and tutorials.
 * [shields.io](https://shields.io/) For shields used on our github repo.
+* [Carrois](https://carrois.com/) For Fira Sans and Fira Code font.
 
 [contributors-shield]: https://img.shields.io/github/contributors/christianisadev/skyscraper.svg?style=for-the-badge
 [contributors-url]: https://github.com/christianisadev/skyscraper/graphs/contributors

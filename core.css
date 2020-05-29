@@ -1,0 +1,251 @@
+/* Skyscraper */
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-size: 100%;
+}
+
+html,
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    line-height: 2.1em;
+    margin: 0;
+    scroll-behavior: smooth;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    background-color: #fffdfd;
+    color: #1d1d1d;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    margin: 0.8em 0;
+}
+
+h1 {
+    font-size: 2.2em;
+}
+
+h2 {
+    font-size: 1.7em;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+h5 {
+    font-size: 1.1em;
+}
+
+h6 {
+    font-size: 1em;
+}
+
+/* Should also include the special tags for some formatting */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section {
+    display: block;
+}
+
+summary {
+    display: list-item;
+}
+
+audio,
+canvas,
+progress,
+video {
+    display: inline-block
+}
+
+progress {
+    vertical-align: baseline
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+figure {
+    margin: 1em 40px
+}
+
+/* Test Me! User Should be able to choose if image is repsonsive or only scales down */
+/* confirm : are pure, bulma, and w3css responsive by default ? */
+img {
+    display: block;
+}
+
+img.is-round {
+    border-radius: 50%;
+}
+
+img.is-fluid {
+    width: 100%;
+    height: auto;
+}
+
+img.is-responsive {
+    max-width: 100%;
+    width: auto;
+}
+
+button,
+input,
+select,
+textarea,
+optgroup {
+    font: inherit;
+    margin: 0
+}
+
+optgroup {
+    font-weight: bold
+}
+
+button,
+input {
+    overflow: visible;
+}
+
+button,
+select {
+    text-transform: none;
+}
+
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+    -webkit-appearance: button;
+}
+
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: .35em .625em .75em
+}
+
+legend {
+    color: inherit;
+    background-color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal
+}
+
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+    height: auto
+}
+
+[type=search] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px
+}
+
+[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+
+.hidden,
+[hidden] {
+    display: none !important;
+}
+
+/* Extra small devices */
+@media only screen and (max-width: 600px) {
+
+    html,
+    body {}
+}
+
+/* Small devices */
+@media only screen and (min-width: 600px) {
+
+    html,
+    body {}
+}
+
+/* Medium devices */
+@media only screen and (min-width: 768px) {
+
+    html,
+    body {
+        font-size: 19px;
+    }
+}
+
+/* Large devices */
+@media only screen and (min-width: 1280px) {
+
+    html,
+    body {
+        font-size: 20px;
+    }
+}
+
+/* Extra large devices */
+@media only screen and (min-width: 1920px) {
+
+    html,
+    body {
+        font-size: 22px;
+    }
+}
+
+/* Extra large devices, ultrawide */
+@media only screen and (min-width: 2560px) {
+
+    html,
+    body {
+        font-size: 27px;
+    }
+}
+
+/* Extra large devices, near and above 4k */
+@media only screen and (min-width: 3200px) {
+
+    html,
+    body {
+        font-size: 35px;
+    }
+}

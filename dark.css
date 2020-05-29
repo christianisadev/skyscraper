@@ -1,0 +1,15 @@
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #fffdfd;
+        background-color: #1d1d1d;
+    }
+
+    img {
+        opacity: .75;
+        transition: opacity .5s ease-in-out;
+    }
+
+    img:hover {
+        opacity: 1;
+    }
+}
