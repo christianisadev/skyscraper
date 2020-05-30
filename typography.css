@@ -5,8 +5,6 @@ body {
     line-height: 2.1em;
 }
 
-/* Google Has An Awesome Fonts Project We Love Using */
-
 a,
 p,
 pre,
@@ -54,7 +52,7 @@ strong {
 }
 
 a {
-    color: var(--primary-color, #2d89ef);
+    color: var(--primary);
     text-decoration: none;
 }
 
@@ -77,7 +75,6 @@ a:hover {
     samp : right-aligned
     var : like code but no styling
 */
-
 
 code,
 kbd,
@@ -103,12 +100,12 @@ samp {
 }
 
 dfn {
-    font-style: italic
+    font-style: italic;
 }
 
 mark {
-    background: #ff0;
-    color: #000
+    background: var(--warning, #ffc40d);
+    color: var(--black, #1d1d1d);
 }
 
 hr {

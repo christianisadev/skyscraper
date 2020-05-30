@@ -1,4 +1,6 @@
 /* Skyscraper */
+
+/* Set Box Sizing for Page */
 *,
 *:before,
 *:after {
@@ -21,11 +23,8 @@ body {
     scroll-behavior: smooth;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-}
-
-body {
-    background-color: #fffdfd;
-    color: #1d1d1d;
+    background-color: var(--white);
+    color: var(--black);
 }
 
 h1,
@@ -63,7 +62,6 @@ h6 {
 }
 
 /* Should also include the special tags for some formatting */
-
 article,
 aside,
 details,
@@ -71,6 +69,7 @@ figcaption,
 figure,
 footer,
 header,
+img,
 main,
 menu,
 nav,
@@ -86,28 +85,24 @@ audio,
 canvas,
 progress,
 video {
-    display: inline-block
+    display: inline-block;
 }
 
 progress {
-    vertical-align: baseline
+    vertical-align: baseline;
 }
 
 audio:not([controls]) {
     display: none;
-    height: 0
+    height: 0;
 }
 
 figure {
-    margin: 1em 40px
+    margin: 1em 2em;
 }
 
 /* Test Me! User Should be able to choose if image is repsonsive or only scales down */
 /* confirm : are pure, bulma, and w3css responsive by default ? */
-img {
-    display: block;
-}
-
 img.is-round {
     border-radius: 50%;
 }
@@ -128,11 +123,11 @@ select,
 textarea,
 optgroup {
     font: inherit;
-    margin: 0
+    margin: 0;
 }
 
 optgroup {
-    font-weight: bold
+    font-weight: bold;
 }
 
 button,
@@ -153,8 +148,7 @@ button,
 }
 
 fieldset {
-    border: 1px solid #c0c0c0;
-    margin: 0 2px;
+    margin: 0 0.2em;
     padding: .35em .625em .75em
 }
 
@@ -169,26 +163,32 @@ legend {
 
 [type=number]::-webkit-inner-spin-button,
 [type=number]::-webkit-outer-spin-button {
-    height: auto
+    height: auto;
 }
 
 [type=search] {
     -webkit-appearance: textfield;
-    outline-offset: -2px
+    outline-offset: -2px;
 }
 
 [type=search]::-webkit-search-decoration {
-    -webkit-appearance: none
+    -webkit-appearance: none;
 }
 
 ::-webkit-file-upload-button {
     -webkit-appearance: button;
-    font: inherit
+    font: inherit;
 }
 
 .hidden,
 [hidden] {
     display: none !important;
+}
+
+:disabled {
+    box-shadow: none;
+    cursor: not-allowed;
+    opacity: 0.3;
 }
 
 /* Extra small devices */

@@ -1,7 +1,10 @@
+/* TODO : Change primary color based on dark scheme.
+   TODO : See what other enhancements can be done.
+*/
 @media (prefers-color-scheme: dark) {
     body {
-        background: #fffdfd;
-        background-color: #1d1d1d;
+        color: var(--white, #ffffff);
+        background-color: var(--black, #1d1d1d);
     }
 
     img {

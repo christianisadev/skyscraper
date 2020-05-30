@@ -1,0 +1,32 @@
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table
+}
+
+.w3-table-all {
+    border: 1px solid #ccc
+}
+
+.w3-bordered tr,
+.w3-table-all tr {
+    border-bottom: 1px solid #ddd
+}
+
+table tbody.is-striped tr:nth-child(even) {
+    background-color: #f1f1f1
+}
+
+table td,
+table th {
+    padding: 0.5em 0.5em;
+    display: table-cell;
+    text-align: left;
+    vertical-align: center;
+}
+
+table th:first-child,
+table td:first-child {
+    padding-left: 1em
+}

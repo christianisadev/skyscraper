@@ -46,7 +46,7 @@ git clone https://github.com/christianisadev/skyscraper.git
 
 ## Usage
 
-TODO: Use this space to show useful examples of how Skyscraper can be used. 
+TODO: Use this space to show useful examples of how Skyscraper.CSS can be used. 
 
 _This is an ongoing development project. Expect frequent changes and patches to functionality. Help make Skyscraper.CSS a better framework by providing your input on the [Issues](https://github.com/christianisadev/skyscraper/issues) page or creating your own feature branch!_
 
@@ -76,7 +76,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Acknowledgements
 
 * [w3schools](https://www.w3schools.com/) For inspiration and tutorials.
-* [shields.io](https://shields.io/) For shields used on our github repo.
+* [shields.io](https://shields.io/) For shields in use on our github repo.
 * [Carrois](https://carrois.com/) For Fira Sans and Fira Code font.
 
 [contributors-shield]: https://img.shields.io/github/contributors/christianisadev/skyscraper.svg?style=for-the-badge

@@ -1,18 +1,14 @@
-
-/* Nu Metro Buttons */
-/* Focuses only on <button> styling to for accessibility. */
-/* Core button with fallback color */
-button{
-    background-color: var(--primary-color, #2d89ef);
+/* TODO : Move some button fuctionality to "core" => We focus on styling & specialty buttons */
+button {
+    background-color: var(--primary, #2d89ef);
+    color: var(--white, #ffffff);
     border: none;
     box-sizing: border-box;
-    color: var(--font-color, #1d1d1d);
     cursor: pointer;
     display: inline-block;
     line-height: inherit;
     overflow: hidden;
     padding: 0.5em 0.8em;
-    text-decoration: none;
     text-align: center;
     text-decoration: none;
     user-select: none;
@@ -30,7 +26,7 @@ button{
 /* TODO: Add "Rounded" and "Pill" */
 
 /* As they keyboard cannot "enter" on a button, remove outline. */
-button:focus{
+button:focus {
     outline: 0;
 }
 
@@ -42,19 +38,18 @@ button:-moz-focusring,
 }
 
 /* On hover effect. */
-button:hover{
+button:hover {
     opacity: 0.6;
+    box-shadow: 0 0.5em 1em 0 rgba(0, 0, 0, 0.2), 0 0.9em 1.1em 0 rgba(0, 0, 0, 0.19);
 }
 
 /* On active (click) effect. */
-button:active{
+button:active {
     opacity: 0.4;
 }
 
 /* Disabled properties */
-button:disabled{
-    cursor: not-allowed;
-    opacity: 0.3;
+button:disabled {
     border: none;
     background-image: none;
     cursor: not-allowed;
