@@ -1,4 +1,4 @@
-# Skyscraper.CSS 
+# Skyscraper.css
 > A grid-based framework reaching for the sky!
 
 [![Contributors][contributors-shield]][contributors-url]
@@ -76,8 +76,13 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Acknowledgements
 
 * [w3schools](https://www.w3schools.com/) For inspiration and tutorials.
+<<<<<<< HEAD
 * [shields.io](https://shields.io/) For shields in use on our github repo.
 * [Carrois](https://carrois.com/) For Fira Sans and Fira Code font.
+=======
+* [shields.io](https://shields.io/) For shields used on our github repo.
+* [carrois](https://carrois.com/) For Fira Sans and Fira Code font.
+>>>>>>> 57a2e7c234558054f9c9c3a78d211901854e5922
 
 [contributors-shield]: https://img.shields.io/github/contributors/christianisadev/skyscraper.svg?style=for-the-badge
 [contributors-url]: https://github.com/christianisadev/skyscraper/graphs/contributors
