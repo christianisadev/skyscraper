@@ -10,13 +10,12 @@
 html {
     box-sizing: border-box;
     overflow-x: hidden;
-    font-size: 100%;
+    font-size: var(--font-size, 18px);
 }
 
 html,
 body {
     font-family: Arial, sans-serif;
-    font-size: 18px;
     letter-spacing: 0.03em;
     line-height: 2.1em;
     margin: 0;
@@ -186,66 +185,58 @@ legend {
 }
 
 :disabled {
+    background-image: none;
+    border: none;
     box-shadow: none;
     cursor: not-allowed;
     opacity: 0.3;
+    pointer-events: none;
 }
 
 /* Extra small devices */
 @media only screen and (max-width: 600px) {
 
-    html,
-    body {}
+    html {
+        font-size: var(--font-size, 18px);
+    }
 }
 
 /* Small devices */
 @media only screen and (min-width: 600px) {
 
-    html,
-    body {}
+    html {
+        font-size: var(--font-size, 18px) + 1px;
+    }
 }
 
 /* Medium devices */
 @media only screen and (min-width: 768px) {
 
-    html,
-    body {
-        font-size: 19px;
+    html {
+        font-size: var(--font-size, 18px) + 2px;
     }
 }
 
 /* Large devices */
 @media only screen and (min-width: 1280px) {
 
-    html,
-    body {
-        font-size: 20px;
+    html {
+        font-size: var(--font-size, 18px) + 3px;
     }
 }
 
 /* Extra large devices */
 @media only screen and (min-width: 1920px) {
 
-    html,
-    body {
-        font-size: 22px;
+    html {
+        font-size: var(--font-size, 18px) + 5px;
     }
 }
 
 /* Extra large devices, ultrawide */
 @media only screen and (min-width: 2560px) {
 
-    html,
-    body {
-        font-size: 27px;
-    }
-}
-
-/* Extra large devices, near and above 4k */
-@media only screen and (min-width: 3200px) {
-
-    html,
-    body {
-        font-size: 35px;
+    html {
+        font-size: var(--font-size, 18px) + 8px;
     }
 }

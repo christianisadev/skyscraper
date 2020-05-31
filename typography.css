@@ -1,8 +1,6 @@
 html,
 body {
     font-family: "Fira Sans", Arial, sans-serif;
-    letter-spacing: 0.03em;
-    line-height: 2.1em;
 }
 
 a,
@@ -56,7 +54,8 @@ a {
     text-decoration: none;
 }
 
-a:active{
+a:active,
+a:visited{
     outline-width: 0;
     opacity: 0.4;
 }

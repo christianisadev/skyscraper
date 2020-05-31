@@ -1,4 +1,7 @@
 :root {
+    /* Colours */
+    --dark-primary: #0b488e;
+    --light-primary: #a0c9f8;
     --primary: #2d89ef;
     --success: #00a300;
     --warning: #ffc40d;
@@ -8,4 +11,9 @@
     --gray: #b3b3b3;
     --light-gray: #d9d9d9;
     --dark-gray: #8c8c8c;
+    --grey: #b3b3b3;
+    --light-grey: #d9d9d9;
+    --dark-grey: #8c8c8c;
+    /* Typography */
+    --font-size: 18px;
 }

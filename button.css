@@ -2,13 +2,13 @@
 button {
     background-color: var(--primary, #2d89ef);
     color: var(--white, #ffffff);
-    border: none;
+    border: none var(--black);
     box-sizing: border-box;
     cursor: pointer;
     display: inline-block;
     line-height: inherit;
     overflow: hidden;
-    padding: 0.5em 0.8em;
+    padding: 0.55em 0.55em;
     text-align: center;
     text-decoration: none;
     user-select: none;
@@ -26,6 +26,13 @@ button {
 /* TODO: Add "Rounded" and "Pill" */
 
 /* As they keyboard cannot "enter" on a button, remove outline. */
+button:focus,
+button:hover,
+button:active {
+    background-color: var(--light-primary);
+    color: var(--black);
+}
+
 button:focus {
     outline: 0;
 }
@@ -35,17 +42,6 @@ button:-moz-focusring,
 [type=reset]:-moz-focusring,
 [type=submit]:-moz-focusring {
     outline: 0;
-}
-
-/* On hover effect. */
-button:hover {
-    opacity: 0.6;
-    box-shadow: 0 0.5em 1em 0 rgba(0, 0, 0, 0.2), 0 0.9em 1.1em 0 rgba(0, 0, 0, 0.19);
-}
-
-/* On active (click) effect. */
-button:active {
-    opacity: 0.4;
 }
 
 /* Disabled properties */

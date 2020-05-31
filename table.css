@@ -5,17 +5,8 @@ table {
     display: table
 }
 
-.w3-table-all {
-    border: 1px solid #ccc
-}
-
-.w3-bordered tr,
-.w3-table-all tr {
-    border-bottom: 1px solid #ddd
-}
-
 table tbody.is-striped tr:nth-child(even) {
-    background-color: #f1f1f1
+    background-color: var(--light-gray)
 }
 
 table td,

@@ -88,6 +88,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 [issues-shield]: https://img.shields.io/github/issues/christianisadev/skyscraper.svg?style=for-the-badge
 [issues-url]: https://github.com/christianisadev/skyscraper/issues
 [license-shield]: https://img.shields.io/github/license/christianisadev/skyscraper?style=for-the-badge
-[license-url]: https://github.com/christianisadev/skyscraper/blob/master/LICENSE.txt
+[license-url]: https://github.com/christianisadev/skyscraper/blob/master/LICENSE
 [twitter-shield]: https://img.shields.io/twitter/follow/christianisadev?label=Follow&style=for-the-badge
 [twitter-url]: https://twitter.com/intent/follow?screen_name=christianisadev
