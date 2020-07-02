@@ -1,8 +1,9 @@
 table {
     border-collapse: collapse;
     border-spacing: 0;
-    width: 100%;
-    display: table
+    display: table;
+    empty-cells: show;
+    border : 1px solid #ffffff; /* fix with proper colour */
 }
 
 table tbody.is-striped tr:nth-child(even) {
@@ -21,3 +22,9 @@ table th:first-child,
 table td:first-child {
     padding-left: 1em
 }
+
+table caption {
+    font-style: italic;
+    text-align: center
+}
+ 

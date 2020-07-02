@@ -1,0 +1,32 @@
+.fullscreen {
+    height: 100vh;
+    width: 100vw;
+}
+
+.right-to-left {
+
+}
+
+.left-to-right {
+
+}
+
+.remove-margin-top {
+    margin-top: 0;
+}
+
+header {
+    overflow: hidden;
+    background-color: (--header-color);
+    color: (--header-text-color);
+}
+
+nav {
+
+}
+
+footer {
+    overflow: hidden;
+    background-color: (--footer-color);
+    color: (--footer-text-color);
+}

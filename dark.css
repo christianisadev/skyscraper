@@ -1,18 +1,33 @@
-/* TODO : Change primary color based on dark scheme.
-   TODO : See what other enhancements can be done.
-*/
 @media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #181818;
+        --font-color: #ABABAB;
+        --container-color: #3B3B3B;
+        --primary-color: #FCC1C1;
+        --secondary-color: #D1A5F5;
+        --primary-accent-color: #FCDEDE;
+        --secondary-accent-color: #D1A5F5;
+    }
+
     body {
-        color: var(--white, #ffffff);
-        background-color: var(--black, #1d1d1d);
+        color: var(--font-color);
+        background-color: var(--background-color);
     }
 
     img {
-        opacity: .75;
+        opacity: 0.77;
         transition: opacity .5s ease-in-out;
     }
 
     img:hover {
         opacity: 1;
+    }
+
+    a {
+        color: var(--secondary-color);
+    }
+
+    mark {
+        background: var(--utility-warning, #FFCC3C);
     }
 }

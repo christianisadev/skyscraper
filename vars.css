@@ -1,19 +1,19 @@
 :root {
-    /* Colours */
-    --dark-primary: #0b488e;
-    --light-primary: #a0c9f8;
-    --primary: #2d89ef;
-    --success: #00a300;
-    --warning: #ffc40d;
-    --danger: #ee1111;
-    --black: #1d1d1d;
-    --white: #ffffff;
-    --gray: #b3b3b3;
-    --light-gray: #d9d9d9;
-    --dark-gray: #8c8c8c;
-    --grey: #b3b3b3;
-    --light-grey: #d9d9d9;
-    --dark-grey: #8c8c8c;
+    /* Primary Can Stand alone on bg or container
+       Primary can be used as header/footer */
+    --primary-color: #B50505;
+    /* Secondary color can stand alone on bg or container
+       Secondary color can be used as header/footer */
+    --secondary-color: #5D05B5;
+    /* Containers : Based on primary, secondary 
+    /* Should also have 2 greys to bounce of bg (light/dark) */
+    --primary-accent-color: #FCC1C1;
+    --secondary-accent-color: #D1A5F5;
+    --container-color: #F3F3F3;
+    --reading-container-color: #F3F3F3;
+    /* Grid */
+    --grid-gap: 1rem;
+    /* Icons */
     /* Typography */
-    --font-size: 18px;
+    --mark-yellow: #FFD300;
 }

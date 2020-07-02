@@ -1,14 +1,53 @@
-html,
-body {
-    font-family: "Fira Sans", Arial, sans-serif;
+/* Headers */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    margin: 0.6em 0;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.7em;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+h5 {
+    font-size: 1.1em;
+}
+
+h6 {
+    font-size: 1em;
 }
 
 a,
 p,
-pre,
-em,
-blockquote {
+em {
     font-weight: 200;
+}
+
+blockquote {
+    font-weight: 400;
+}
+
+p.reading-container,
+blockquote {
+    max-width: 78ch;
+    margin: auto;
+    overflow: hidden;
 }
 
 b,
@@ -20,10 +59,8 @@ small,
 sub,
 sup {
     font-size: 0.8em;
-    font-weight: inherit;
 }
 
-/* TODO : Blockquote left, center, right + responsive */
 blockquote,
 em,
 strong {
@@ -38,31 +75,32 @@ sup {
 }
 
 sub {
-    bottom: -0.5em;
+    bottom: -0.3em;
 }
 
 sup {
     top: -0.5em;
 }
 
-strong {
-    font-variant: small-caps;
-}
-
 a {
-    color: var(--primary);
+    color: var(--secondary-color);
     text-decoration: none;
 }
 
-a:active,
-a:visited{
-    outline-width: 0;
-    opacity: 0.4;
+a:visited {
+    text-decoration: underline;
 }
 
 a:hover {
-    outline-width: 0;
     text-decoration: underline;
+}
+
+a:focus {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline dashed;
 }
 
 /* code, samp, pre, var, kbd */
@@ -70,7 +108,7 @@ a:hover {
 /* 
     pre : just font-family and spacing
     code : section for code left-aligned but with blockquote indentation and styling (b/w, colors should change this)
-    kbd  : left-aliged
+    kbd  : looks like keys
     samp : right-aligned
     var : like code but no styling
 */
@@ -80,7 +118,8 @@ kbd,
 pre,
 var,
 samp {
-    font-family: "Fira Code", monospace;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 1rem;
 }
 
 code,
@@ -91,7 +130,11 @@ samp {
 }
 
 kbd {
-    text-align: left;
+    text-align: center;
+    border-color: #000000;
+    background-color: #1f1f1f;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
 }
 
 samp {
@@ -103,19 +146,31 @@ dfn {
 }
 
 mark {
-    background: var(--warning, #ffc40d);
-    color: var(--black, #1d1d1d);
+    background: #FFD300;
+    color: var(--font-color);
 }
 
 hr {
-    border: 0;
     height: 0;
-    margin: 0.8em 0;
+    margin: 0.6rem 6rem;
+    border: 0;
+    border-top: 1px solid var(--font-color);
+    opacity: 0.77;
+    box-sizing: content-box;
     overflow: visible;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+}
+
+hr.full-width {
+    margin: 0;
+}
+
+hr.no-line {
+    border-top: 0;
 }
 
 abbr[title] {
     border-bottom: none;
-    text-decoration: underline;
-    text-decoration: underline dotted
+    text-decoration: underline dotted;
 }

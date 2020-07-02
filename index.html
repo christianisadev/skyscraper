@@ -1,41 +1,41 @@
 <!doctype html>
 <html lang="en">
-<header>
+
+<head>
     <title>Testbed</title>
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./core.css" />
     <link rel="stylesheet" type="text/css" href="./button.css" />
     <link rel="stylesheet" type="text/css" href="./table.css" />
     <link rel="stylesheet" type="text/css" href="./typography.css" />
     <link rel="stylesheet" type="text/css" href="./vars.css" />
-    <!-- <link rel="stylesheet" type="text/css" href="./dark.css" /> -->
+    <link rel="stylesheet" type="text/css" href="./dark.css" />
+    <link rel="stylesheet" type="text/css" href="./grid.css" />
+    <link rel="stylesheet" type="text/css" href="./helpers.css" />
     <meta charset="UTF-8">
+
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="">
-    <meta name="generator" content="">
+    <meta name="generator" content="Skyscraper">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</header>
+</head>
 
-<body>
+<body class="grid">
+    <header><h4>This is a header.</h4></header>
     <main>
-        <section>
-            <h1>Hello to my typography stuff</h1>
+            <h1 class="remove-margin-top">Hello to my typography stuff</h1>
             <h2>Hello to my typography stuff</h2>
             <h3>Hello to my typography stuff</h3>
             <h4>Hello to my typography stuff</h4>
             <h5>Hello to my typography stuff</h5>
             <h6>Hello to my <mark>typograhpy</mark> stuff</h6>
-        </section>
-        <article>
-            <h3>Some stuff is here</h3>
-            <p>Vestibulum ante Kill <small>the</small> Remember, this is a framework of components. Start with
+            <p>Vestibulum ante Kill <small>the</small> Remember,
+                this is a framework of components. Start with
                 typography
                 and other stuff :)
                 Vestibulum et <strong>never</strong> dolor <em>feugiat</em>, luctus nisi et, scelerisque ante. Duis id
                 massa
-                lorem. Vestibulum ante ipsum
+                lorem. Vestibulum ante ipsum <abbr title="People Are Creating Excitement">PACE</abbr>
                 primis
                 in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eleifend leo mauris. Vivamus eget
                 accumsan
@@ -45,14 +45,10 @@
                 euismod. Proin ut nulla laoreet, tempor turpis vitae, tincidunt sapien. In hac habitasse platea
                 dictumst.
             </p>
-            <button>Stuff</button>
-            <button disabled>Stuff</button>
-            <blockquote>"How did this come to be?"</blockquote>
-            <code>Some stuff is x<sup>2</sup> = 2x<sub>a</sub> + x<sub>b</sub> as well</code>
-            <p>
+            <p class="reading-container">
                 <a href="#">This is a link</a> Cras condimentum felis metus, non volutpat elit dignissim quis. Fusce
                 dictum,
-                sapien sit amet condimentum
+                sapien sit amet <a href="https://www.godaddy.com">This is a link</a> condimentum
                 viverra, risus dolor lobortis augue, sed egestas urna lorem sit amet ante. Donec molestie dictum nunc et
                 molestie. Donec tincidunt condimentum quam, nec lacinia turpis posuere a. Pellentesque habitant morbi
                 tristique
@@ -66,13 +62,18 @@
                 felis. Ut enim ex, tincidunt eget maximus quis, sollicitudin eget dolor. Morbi imperdiet, libero in
                 finibus
                 vulputate, magna leo hendrerit lorem, malesuada pretium magna enim eu ligula. Nulla efficitur eget odio
-                id
+                IlJd
                 blandit. </p>
-            <kbd>Please enter a variable: -1</kbd>
-            <hr>
-            <samp>That variable is invalid.</samp>
-        </article>
+            <kbd>ctrl</kbd> <kbd>a</kbd>
+            <blockquote>"How did this come to be?"</blockquote>
     </main>
+    <aside>
+        These are my links
+    </aside>
+    <div>
+        This is a special thing
+    </div>
+    <footer>This is a phat footer</footer>
 </body>
 
 </html>

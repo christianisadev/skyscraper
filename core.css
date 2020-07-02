@@ -1,79 +1,32 @@
-/* Skyscraper */
-
-/* Set Box Sizing for Page */
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
+/*
+Name: Skyscraper
+Description: It's an awesome framework. NGL.
+Author: ChristianIsADev
+Author URI: 
+Tags: CSS3, Grid, Accessibility, Framework
+*/
+:root {
+    --font-family: "Lucida Grande", Arial, sans-serif;
+    --font-size: calc(18px + (24 - 18) * ((100vw - 360px) / (1408 - 360)));
+    --background-color: #FFFFFF;
+    --font-color: #3B3B3B;
 }
 
 html {
-    box-sizing: border-box;
-    overflow-x: hidden;
-    font-size: var(--font-size, 18px);
-}
-
-html,
-body {
-    font-family: Arial, sans-serif;
-    letter-spacing: 0.03em;
-    line-height: 2.1em;
-    margin: 0;
-    scroll-behavior: smooth;
+    font-size: var(--font-size);
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-    background-color: var(--white);
-    color: var(--black);
+    -moz-text-size-adjust: 100%;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-weight: 400;
-    margin: 0.8em 0;
-}
-
-h1 {
-    font-size: 2.2em;
-}
-
-h2 {
-    font-size: 1.7em;
-}
-
-h3 {
-    font-size: 1.4em;
-}
-
-h4 {
-    font-size: 1.2em;
-}
-
-h5 {
-    font-size: 1.1em;
-}
-
-h6 {
-    font-size: 1em;
-}
-
-/* Should also include the special tags for some formatting */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-img,
-main,
-menu,
-nav,
-section {
-    display: block;
+body {
+    font-family: var(--font-family);
+    letter-spacing: 0.08rem;
+    line-height: 1.8rem;
+    margin: 0;
+    scroll-behavior: smooth;
+    background-color: var(--background-color);
+    color: var(--font-color);
 }
 
 summary {
@@ -97,23 +50,22 @@ audio:not([controls]) {
 }
 
 figure {
-    margin: 1em 2em;
+    margin: 1rem 2rem;
 }
 
-/* Test Me! User Should be able to choose if image is repsonsive or only scales down */
-/* confirm : are pure, bulma, and w3css responsive by default ? */
-img.is-round {
+img {
+    max-width: 100%;
+    height: auto;
+    border-style: none;
+}
+
+img.circle-border {
     border-radius: 50%;
 }
 
-img.is-fluid {
+img.fluid-width {
+    max-width: none;
     width: 100%;
-    height: auto;
-}
-
-img.is-responsive {
-    max-width: 100%;
-    width: auto;
 }
 
 button,
@@ -126,7 +78,7 @@ optgroup {
 }
 
 optgroup {
-    font-weight: bold;
+    font-weight: 600;
 }
 
 button,
@@ -147,8 +99,8 @@ button,
 }
 
 fieldset {
-    margin: 0 0.2em;
-    padding: .35em .625em .75em
+    margin: 0 0.2rem;
+    padding: .35rem .625rem .75rem;
 }
 
 legend {
@@ -157,7 +109,7 @@ legend {
     display: table;
     max-width: 100%;
     padding: 0;
-    white-space: normal
+    white-space: normal;
 }
 
 [type=number]::-webkit-inner-spin-button,
@@ -179,9 +131,8 @@ legend {
     font: inherit;
 }
 
-.hidden,
 [hidden] {
-    display: none !important;
+    display: none;
 }
 
 :disabled {
@@ -191,52 +142,4 @@ legend {
     cursor: not-allowed;
     opacity: 0.3;
     pointer-events: none;
-}
-
-/* Extra small devices */
-@media only screen and (max-width: 600px) {
-
-    html {
-        font-size: var(--font-size, 18px);
-    }
-}
-
-/* Small devices */
-@media only screen and (min-width: 600px) {
-
-    html {
-        font-size: var(--font-size, 18px) + 1px;
-    }
-}
-
-/* Medium devices */
-@media only screen and (min-width: 768px) {
-
-    html {
-        font-size: var(--font-size, 18px) + 2px;
-    }
-}
-
-/* Large devices */
-@media only screen and (min-width: 1280px) {
-
-    html {
-        font-size: var(--font-size, 18px) + 3px;
-    }
-}
-
-/* Extra large devices */
-@media only screen and (min-width: 1920px) {
-
-    html {
-        font-size: var(--font-size, 18px) + 5px;
-    }
-}
-
-/* Extra large devices, ultrawide */
-@media only screen and (min-width: 2560px) {
-
-    html {
-        font-size: var(--font-size, 18px) + 8px;
-    }
 }
