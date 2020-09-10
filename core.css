@@ -7,13 +7,11 @@ Tags: CSS3, Grid, Accessibility, Framework
 */
 :root {
     --font-family: "Lucida Grande", Arial, sans-serif;
-    --font-size: calc(18px + (24 - 18) * ((100vw - 360px) / (1408 - 360)));
     --background-color: #FFFFFF;
     --font-color: #3B3B3B;
 }
 
 html {
-    font-size: var(--font-size);
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
@@ -57,10 +55,6 @@ img {
     max-width: 100%;
     height: auto;
     border-style: none;
-}
-
-img.circle-border {
-    border-radius: 50%;
 }
 
 img.fluid-width {
